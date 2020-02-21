@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lateral</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div class="header-bg">
+        <div class="bg-shape"></div>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a class="arrow-menu" href="#">Feautures</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <h1 class="logo">Lateral</h1>
+            </header>
+            <section class="top">
+                <h2>Build applications <span class="violet">faster</span></h2>
+                <p class="desc">Hire experts & get your job done. The right IT security solutions. Protect your clients and computer systems from hackers and flight against malware.</p>
+                <p class="offer">For as low as <span class="violet">$0.95</span> per user account</p>
+                <a class="btn-demo" href="#">Watch Demo</a>
+                <a class="btn-now" href="#">Start Now</a>
+            </section>
+            <section class="middle">
+                <h2>Features designed for you</h2>
+                <p>We believe we have created the most efficient SaaS landing page for your users. Landing page with features that will convince you to use it for your SaaS business.</p>
+                <div class="features">
+                    <div class="box">
+                        <img src="images/icons/responsive-64.png" alt="responsive"> 
+                        <h3>Responsive <span>Layout Template</span></h3>
+                        <p>Responsive code that makes your landing page look good in all divices (desktops, tablets and phones). Created with mobile specialists.</p>
+                    </div>
+                    <div class="box">
+                        <img src="images/icons/desktop-chart-64.png" alt="analysis">
+                        <h3><span>SaaS Landing Page</span> Analysis</h3>
+                        <p>A perfect structure created after we analized  trends in SaaS landing page designs. Analysis made to the most popular SaaS business.</p>
+                    </div>
+                    <div class="box">
+                        <img src="images/icons/browser-64.png" alt="grid">
+                        <h3><span>Smart</span> BEM <span>Grid</span></h3>
+                        <p>Blocks, Elements and Modifiers. A smart HTML/CSS structure that can easily be reused. Layout driven by the purpuse of modularity.</p>
+                    </div>
+                    <div class="box">
+                        <img src="images/icons/desktop-windows-64.png" alt="designs">
+                        <h3><span>Multiple</span> Unique <span>Designs</span></h3>
+                        <p>Choose between multiple unique designs and easy integrate elements from one design to another. Following the latest design trends.</p>
+                    </div>
+                    <div class="box">
+                        <img src="images/icons/customizer-64.png" alt="flexible">
+                        <h3>Flexible <span>HTML Sections</span></h3>
+                        <p>Simple and Smart HTML code that works reintegrated in any part of the layout. Reuse the elements from one design to another.</p>
+                    </div>
+                    <div class="box">
+                        <img src="images/icons/users-64.png" alt="user">
+                        <h3>User <span>Friendly</span></h3>
+                        <p>Easy to navigate. Made with user experience in mind, in order to provide the perfect landing page experience for your client.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="main">
+        <section class="api">
+            <h2>Easy to use API</h2>
+            <p>Guide to setup and configuration. You can present below a guide and a description of your system configuration works and add some animated screens.</p>
+            <div class="api-choose">
+                <a class="api-tab active-tab" id="js-tab" href="#">Initializing JS</a>
+                <a class="api-tab" id="css-tab" href="#">Configuration CSS</a>
+                <a class="api-tab" id="sec-tab"href="#">Security Levels API</a>
+            </div>
+            <div class="api-container">
+                <div class="content" id="js-panel">
+                    <code>
+                        <pre>
+$('.modal-toggle').on('click', funtion(e) {
+    e.preventDefault();
+    var modalopen = $(this).data('openpopup');
+    $('.modal--' + modalopen).toggleClass('modal--visible');
+    var modaltype = $(this).data('openpopup');
+    $('.modal__content--' + modaltype).toggleClass('modal__content--visible');
+            $('.modal__switch').on('click', function(e) {
+                $('.modal__content').removeClass('modal__content--visible');
+                var modaltypeb = $(this).data('openpopup');
+                $('.modal__content--' + modaltype).toggleClass('modal__content--visible');
+            });
+});</pre>
+                    </code>
+                    <div class="btn-actions">
+                        <a class="btn-get-code" href="#">Get the code</a>
+                        <a class="btn-run-code" href="#">Run example</a>
+                    </div>
+                </div>
+                <div class="content" id="css-panel">
+                    <code>
+                        /* CSS code */
+                    </code>
+                    <div class="btn-actions">
+                        <a class="btn-get-code" href="#">Get the code</a>
+                        <a class="btn-run-code" href="#">Run example</a>
+                    </div>
+                </div>
+                <div class="content" id="sec-panel">
+                    <code>
+                        /* API code */
+                    </code>
+                    <div class="btn-actions">
+                        <a class="btn-get-code" href="#">Get the code</a>
+                        <a class="btn-run-code" href="#">Run example</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="bgw">
+        <div class="wrapper">
+            <section class="questions">
+                <ul>
+                    <li>
+                        <h2>Frecuently asked questions</h2>
+                        <p>Have a presale question about our products and features? Or looking for a refund? We would love to hear what your concern is.</p>
+                        <ul class="lsq">
+                            <li>Simple and smart HTMl code</li>
+                            <li>Works reintegrated in any part of the layout</li>
+                            <li>Reuse the elements from one design to another</li>
+                        </ul>
+                    </li>
+                    <li id="questions-tab">
+                        <div class="question-tab"><a id="1" href="#">Installing the app on all devices</a></div>
+                        <div class="question-tab"><a id="2" href="#">How to implement and manage API key</a></div>
+                        <div class="question-tab"><a id="3" href="#">How to set up and optimize your account</a></div>
+                        <div class="question-tab"><a id="4" href="#">Manage your account access and security settings</a></div>
+                        <div class="question-tab"><a id="5" href="#">API integration basic overview</a></div>
+                        <div class="question-tab"><a id="6" href="#">Deactivating or deleting your account</a></div>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <div class="options">
+                    <div class="opt-box">
+                        <img src="images/icons/support-64.png" alt="help">
+                        <div class="opt-box-child">
+                            <h3>Help & Support</h3>
+                            <p>Our 24/7 support team is here to help you and make sure our product is up to date.</p>
+                            <address>support@supportemail.com</address>
+                        </div>
+                    </div>
+                    <div class="opt-box">
+                        <img src="images/icons/globe-64.png" alt="media">
+                        <div class="opt-box-child">
+                            <h3>Media & Press</h3>
+                            <p>Online awards and publications. Get our media resources and learn about our company.</p>
+                            <address>media@youremail.com</address>
+                        </div>
+                    </div>
+                    <div class="opt-box">
+                        <img src="images/icons/wallet-64.png" alt="sales">
+                        <div class="opt-box-child">
+                            <h3>Sales</h3>
+                            <p>Have a presale question about our products and features? Or looking for a refund?</p>
+                            <address>sales@salesemail.com</address>
+                        </div>
+                    </div>
+                </div>
+                <div class="clients">
+                    <ul>
+                        <li><img src="images/clients/clients-logo1.png" alt=""></li>
+                        <li><img src="images/clients/clients-logo2.png" alt=""></li>
+                        <li><img src="images/clients/clients-logo3.png" alt=""></li>
+                        <li><img src="images/clients/clients-logo4.png" alt=""></li>
+                        <li><img src="images/clients/clients-logo5.png" alt=""></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="footer-bg">
+        <div class="gray-shape"></div>
+        <div class="wrapper">
+            <section class="start">
+                <ul>
+                    <li>
+                        <h2>Start <span class="violet">growing</span> your business.</h2>
+                        <p>Your issue is our main priority. Our 24/7 support team is here to help you and make sure our product is up to date. Have presale question about our products and features? Or looking for a refund? We would love to hear what your concern is. Online awards and publications.</p>
+                    </li>
+                    <li>
+                        <a class="btn-started" href="#">Get started now!</a>
+                    </li>
+                </ul>
+            </section>
+            <footer>
+                <ul>
+                    <li>
+                        <h4>Lateral</h4>
+                        <p>Copyright &copy; 2018 LATERAL</p>
+                        <p>All Rights Reserved. Proudly made in M&eacute;xico</p>
+                        <div class="social">
+                            <a href="#"><img src="images/social/twitter.png" alt="twitter"></a>
+                            <a href="#"><img src="images/social/facebook.png" alt="facebook"></a>
+                            <a href="#"><img src="images/social/linkedin.png" alt="linkedin"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>Company</h4>
+                        <a class="flink" href="#">About</a>
+                        <a class="flink" href="#">Carrers</a>
+                        <a class="flink" href="#">Awards</a>
+                        <a class="flink" href="#">Users Programs</a>
+                        <a class="flink" href="#">Locations</a>
+                    </li>
+                    <li>
+                        <h4>Products</h4>
+                        <a class="flink" href="#">Integrations</a>
+                        <a class="flink" href="#">API</a>
+                        <a class="flink" href="#">Pricing</a>
+                        <a class="flink" href="#">Documentation</a>
+                        <a class="flink" href="#">Release Notes</a>
+                    </li>
+                    <li>
+                        <h4>Support</h4>
+                        <a class="flink" href="#">Contact</a>
+                        <a class="flink" href="#">FAQ</a>
+                        <a class="flink" href="#">Press</a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
